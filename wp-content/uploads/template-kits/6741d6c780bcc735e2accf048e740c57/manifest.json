@@ -1,0 +1,728 @@
+{
+    "manifest_version": "1.0.19",
+    "title": "Pharmavo - Medical Supplies eCommerce Template kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page Home",
+            "screenshot": "screenshots\/page-home.jpg",
+            "source": "templates\/page-home.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/template-kit\/page-home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Page About Us",
+            "screenshot": "screenshots\/page-about-us.jpg",
+            "source": "templates\/page-about-us.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/template-kit\/page-about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Page Blog",
+            "screenshot": "screenshots\/page-blog.jpg",
+            "source": "templates\/page-blog.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/template-kit\/page-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Page Contact",
+            "screenshot": "screenshots\/page-contact.jpg",
+            "source": "templates\/page-contact.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/template-kit\/page-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header Default",
+            "screenshot": "screenshots\/header-default.jpg",
+            "source": "templates\/header-default.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=header-default",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header 1",
+            "screenshot": "screenshots\/header-1.jpg",
+            "source": "templates\/header-1.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=header-1",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/6",
+                    "include\/singular\/page\/462"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Page #462."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Page 404",
+            "screenshot": "screenshots\/page-404.jpg",
+            "source": "templates\/page-404.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=page-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Cart, Checkout, Account Page",
+            "screenshot": "screenshots\/cart-checkout-account-page.jpg",
+            "source": "templates\/cart-checkout-account-page.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=cart-checkout-account-page",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/15",
+                    "include\/singular\/page\/16",
+                    "include\/singular\/page\/17"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #17."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Products Archive",
+            "screenshot": "screenshots\/products-archive.jpg",
+            "source": "templates\/products-archive.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=products-archive",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/?elementor_library=archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-category",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.10",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.1.5",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "4.9.2",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.1.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "hero_bg-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/hero_bg-min-800x474.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 84845,
+            "dimensions": [
+                1366,
+                810
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/photo\/medical-ct-or-mri-or-pet-scan-standing-in-the-modern-hospital-laboratory-gm1074166156-287587561"
+        },
+        {
+            "filename": "hero_img_front-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/hero_img_front-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 19660,
+            "dimensions": [
+                352,
+                440
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/modern-dental-equipment-on-table-in-light-room-in-clinic-3845729\/"
+        },
+        {
+            "filename": "hero_img_back-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/hero_img_back-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 22252,
+            "dimensions": [
+                447,
+                740
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/photo\/blood-pressure-gauge-gm174863986-23094225"
+        },
+        {
+            "filename": "pattern_pills_right.png",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/pattern_pills_right.png",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 25436,
+            "dimensions": [
+                565,
+                366
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "pattern_pills_left.png",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/pattern_pills_left.png",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 15101,
+            "dimensions": [
+                209,
+                219
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "category_1-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/category_1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 4167,
+            "dimensions": [
+                168,
+                168
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/SZ1DDwCPqkE"
+        },
+        {
+            "filename": "category_2-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/category_2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 4674,
+            "dimensions": [
+                168,
+                168
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/photo\/medical-ct-or-mri-or-pet-scan-standing-in-the-modern-hospital-laboratory-gm1074166156-287587561"
+        },
+        {
+            "filename": "category_3-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/category_3-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 4150,
+            "dimensions": [
+                168,
+                168
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/coronavirus-covid-19-vaccine-covid19-research-QGFZDPK"
+        },
+        {
+            "filename": "category_4-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/category_4-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 4629,
+            "dimensions": [
+                168,
+                168
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/white-and-gray-digital-device-3845129\/"
+        },
+        {
+            "filename": "cta_promo-min.png",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/cta_promo-min.png",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 38358,
+            "dimensions": [
+                438,
+                449
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/photo\/digital-non-contact-forehead-thermometer-laser-3d-rendering-isolated-on-white-gm1204703688-346748312"
+        },
+        {
+            "filename": "promo_intro_1-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/promo_intro_1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 28646,
+            "dimensions": [
+                491,
+                553
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/doctor-checking-blood-pressure-of-patient-in-hospi-KF9K44F"
+        },
+        {
+            "filename": "promo_intro_2-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/promo_intro_2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 18679,
+            "dimensions": [
+                277,
+                293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/mother-and-daughter-with-staff-in-intensive-care-u-PAA3VQK"
+        },
+        {
+            "filename": "testimonial_1-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/testimonial_1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-home.json",
+                    "name": "Page Home"
+                }
+            ],
+            "filesize": 36013,
+            "dimensions": [
+                505,
+                468
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-man-with-face-mask-E4SCFA7"
+        },
+        {
+            "filename": "about_page_title-min-1.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/about_page_title-min-1-800x272.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-about-us.json",
+                    "name": "Page About Us"
+                }
+            ],
+            "filesize": 142535,
+            "dimensions": [
+                2356,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/medical-conference-JQXDW76"
+        },
+        {
+            "filename": "about_intro_1-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/about_intro_1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-about-us.json",
+                    "name": "Page About Us"
+                }
+            ],
+            "filesize": 52561,
+            "dimensions": [
+                518,
+                553
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/1c8sj2IO2I4"
+        },
+        {
+            "filename": "about_intro_2-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/about_intro_2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-about-us.json",
+                    "name": "Page About Us"
+                }
+            ],
+            "filesize": 24885,
+            "dimensions": [
+                277,
+                293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/two-pharmacists-working-together-at-pharmacy-XRA34M5"
+        },
+        {
+            "filename": "team_1-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/team_1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-about-us.json",
+                    "name": "Page About Us"
+                }
+            ],
+            "filesize": 30600,
+            "dimensions": [
+                355,
+                408
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-young-designer-in-creative-office-PNBTMND"
+        },
+        {
+            "filename": "team_2-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/team_2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-about-us.json",
+                    "name": "Page About Us"
+                }
+            ],
+            "filesize": 26056,
+            "dimensions": [
+                355,
+                408
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-black-woman-at-home-writing-in-journal-Y7PGX9G"
+        },
+        {
+            "filename": "team_3-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/team_3-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-about-us.json",
+                    "name": "Page About Us"
+                }
+            ],
+            "filesize": 24826,
+            "dimensions": [
+                355,
+                408
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-creative-professional-in-office-PQKFPYS"
+        },
+        {
+            "filename": "pharmavo_logo@2x.png",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/pharmavo_logo@2x.png",
+            "templates": [
+                {
+                    "source": "templates\/header-default.json",
+                    "name": "Header Default"
+                },
+                {
+                    "source": "templates\/header-1.json",
+                    "name": "Header 1"
+                }
+            ],
+            "filesize": 6188,
+            "dimensions": [
+                286,
+                65
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "pharmavo_logo_white@2x.png",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/01\/pharmavo_logo_white@2x.png",
+            "templates": [
+                {
+                    "source": "templates\/header-1.json",
+                    "name": "Header 1"
+                }
+            ],
+            "filesize": 6472,
+            "dimensions": [
+                286,
+                65
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "footer-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/footer-min-800x292.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 76847,
+            "dimensions": [
+                1366,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/equipment-and-medical-devices-in-modern-operating--4RG6H2N"
+        },
+        {
+            "filename": "404_img-min.jpg",
+            "thumbnail_url": "https:\/\/demo.deothemes.com\/templatekit\/pharmavo\/wp-content\/uploads\/sites\/7\/2021\/02\/404_img-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/page-404.json",
+                    "name": "Page 404"
+                }
+            ],
+            "filesize": 46436,
+            "dimensions": [
+                683,
+                810
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/photo\/medical-ct-or-mri-or-pet-scan-standing-in-the-modern-hospital-laboratory-gm1074166156-287587561"
+        }
+    ]
+}

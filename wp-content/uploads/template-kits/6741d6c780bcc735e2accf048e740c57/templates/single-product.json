@@ -1,0 +1,571 @@
+{
+    "version": "0.4",
+    "title": "Single Product",
+    "type": "product",
+    "metadata": {
+        "template_type": "single-product",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "product",
+        "elementor_pro_conditions": [
+            "include\/product"
+        ],
+        "additional_template_information": [
+            "This is a \"Product\" template for Elementor Pro.",
+            "This template will display on: Products."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "27864983",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1260,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "0",
+                    "bottom": "20",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "3a68c3c6",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "b6eee1d",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1260,
+                                    "sizes": []
+                                },
+                                "structure": "20"
+                            },
+                            "elements": [
+                                {
+                                    "id": "2bbb7ca6",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 46
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "682b9072",
+                                            "settings": {
+                                                "spacing": {
+                                                    "unit": "px",
+                                                    "size": 10,
+                                                    "sizes": []
+                                                },
+                                                "spacing_thumbs": {
+                                                    "unit": "px",
+                                                    "size": 10,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-images",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "64fabb2c",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 54,
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "10",
+                                            "right": "10",
+                                            "bottom": "10",
+                                            "left": "38",
+                                            "isLinked": false
+                                        },
+                                        "space_between_widgets": 10,
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "10",
+                                            "right": "10",
+                                            "bottom": "10",
+                                            "left": "10",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "color_link_hover": "globals\/colors?id=27bab1c"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "7d18ec52",
+                                            "settings": {
+                                                "__globals__": {
+                                                    "text_color": "",
+                                                    "text_typography_typography": "globals\/typography?id=87b5c6e"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-breadcrumb",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4252ac5a",
+                                            "settings": {
+                                                "__dynamic__": {
+                                                    "title": "[elementor-tag id=\"\" name=\"woocommerce-product-title-tag\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                                                },
+                                                "title": "Add Your Heading Text Here",
+                                                "__globals__": {
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "typography_typography": "globals\/typography?id=06deb8c"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-title",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "68f45ef1",
+                                            "settings": {
+                                                "__globals__": {
+                                                    "star_color": "globals\/colors?id=1fac42a",
+                                                    "empty_star_color": "globals\/colors?id=1fac42a",
+                                                    "link_color": "globals\/colors?id=text",
+                                                    "text_typography_typography": "globals\/typography?id=text"
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "16",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "link_color": "#2D2D2D"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-rating",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "33e6ee7a",
+                                            "settings": {
+                                                "__globals__": {
+                                                    "typography_typography": "globals\/typography?id=8cf6ce5",
+                                                    "price_color": "globals\/colors?id=primary"
+                                                },
+                                                "sale_price_spacing": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-price",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4c438d2e",
+                                            "settings": {
+                                                "text_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "24",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "text_typography_font_family": "Roboto",
+                                                "text_typography_font_weight": "400",
+                                                "__globals__": {
+                                                    "text_typography_typography": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-short-description",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "65fc91ec",
+                                            "settings": {
+                                                "__globals__": {
+                                                    "button_bg_color": "globals\/colors?id=accent",
+                                                    "button_bg_color_hover": "globals\/colors?id=primary",
+                                                    "quantity_border_color": "globals\/colors?id=01a6083",
+                                                    "variations_select_border_color": "",
+                                                    "button_text_color_hover": "",
+                                                    "button_text_color": "globals\/colors?id=primary"
+                                                },
+                                                "button_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                },
+                                                "button_border_radius": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "button_padding": {
+                                                    "unit": "px",
+                                                    "top": "16",
+                                                    "right": "28",
+                                                    "bottom": "16",
+                                                    "left": "28",
+                                                    "isLinked": false
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "16",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "button_bg_color": "#FFD66B",
+                                                "quantity_border_color": "#E2E5E8",
+                                                "variations_select_border_color": "#E2E8E7",
+                                                "quantity_padding": {
+                                                    "unit": "px",
+                                                    "top": "12",
+                                                    "right": "12",
+                                                    "bottom": "12",
+                                                    "left": "12",
+                                                    "isLinked": true
+                                                },
+                                                "button_text_color_hover": "#FFFFFF"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-add-to-cart",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "429249bc",
+                                            "settings": {
+                                                "view": "stacked",
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": 4,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "link_color": "globals\/colors?id=27bab1c",
+                                                    "text_color": "globals\/colors?id=text"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-meta",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "16abe149",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1260,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "68c60069",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "5fb92ed9",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1260,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "197dd353",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3a3ba5e5",
+                                            "settings": {
+                                                "tabs_border_color": "#E2E5E8",
+                                                "content_heading_typography_typography": "custom",
+                                                "content_heading_typography_font_family": "Jost",
+                                                "content_heading_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "content_heading_typography_font_weight": "500",
+                                                "panel_border_radius": {
+                                                    "unit": "px",
+                                                    "top": "3",
+                                                    "right": "3",
+                                                    "bottom": "3",
+                                                    "left": "3",
+                                                    "isLinked": true
+                                                },
+                                                "__globals__": {
+                                                    "tabs_border_color": "globals\/colors?id=01a6083",
+                                                    "content_heading_typography_typography": "globals\/typography?id=2b140c7",
+                                                    "tab_typography_typography": "",
+                                                    "tab_bg_color": "globals\/colors?id=01a6083",
+                                                    "active_tab_bg_color": "globals\/colors?id=a2b3097",
+                                                    "tab_text_color": "globals\/colors?id=ce2ffed",
+                                                    "active_tab_text_color": "globals\/colors?id=primary"
+                                                },
+                                                "active_tab_bg_color": "#FFFFFF",
+                                                "tab_typography_font_family": "Jost",
+                                                "tab_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                },
+                                                "tab_typography_font_weight": "400"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-data-tabs",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "3b11aa07",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1260,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "24d20ee9",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "377da6fe",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1260,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "234b6521",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "485b9f35",
+                                            "settings": {
+                                                "posts_per_page": 5,
+                                                "columns": 5,
+                                                "row_gap": {
+                                                    "unit": "px",
+                                                    "size": 48,
+                                                    "sizes": []
+                                                },
+                                                "align": "center",
+                                                "image_border_radius": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "image_spacing": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "title_color": "#000000",
+                                                "title_typography_typography": "custom",
+                                                "title_typography_font_family": "Jost",
+                                                "title_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "title_typography_font_weight": "500",
+                                                "rating_spacing": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "price_typography_typography": "custom",
+                                                "price_typography_font_family": "Roboto",
+                                                "price_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "price_typography_font_weight": "400",
+                                                "old_price_typography_typography": "custom",
+                                                "old_price_typography_font_family": "Roboto",
+                                                "old_price_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "old_price_typography_font_weight": "400",
+                                                "button_background_color": "#F6F3EA",
+                                                "button_hover_color": "#FFFFFF",
+                                                "heading_spacing": {
+                                                    "unit": "px",
+                                                    "size": 25,
+                                                    "sizes": []
+                                                },
+                                                "show_onsale_flash": "",
+                                                "__globals__": {
+                                                    "price_typography_typography": "globals\/typography?id=text",
+                                                    "old_price_typography_typography": "globals\/typography?id=text",
+                                                    "button_background_color": "globals\/colors?id=bbf7ba1",
+                                                    "button_text_color": "globals\/colors?id=primary",
+                                                    "button_hover_background_color": "globals\/colors?id=primary",
+                                                    "star_color": "globals\/colors?id=1fac42a",
+                                                    "empty_star_color": "globals\/colors?id=1fac42a",
+                                                    "title_color": "globals\/colors?id=primary",
+                                                    "title_typography_typography": "globals\/typography?id=2b140c7",
+                                                    "old_price_color": "globals\/colors?id=primary",
+                                                    "price_color": "globals\/colors?id=ce2ffed",
+                                                    "button_typography_typography": "globals\/typography?id=2ed7e3b",
+                                                    "view_cart_typography_typography": "globals\/typography?id=2ed7e3b",
+                                                    "pagination_typography_typography": "globals\/typography?id=text",
+                                                    "pagination_link_color": "globals\/colors?id=primary",
+                                                    "pagination_link_bg_color_hover": "globals\/colors?id=accent",
+                                                    "pagination_link_bg_color_active": "globals\/colors?id=accent",
+                                                    "heading_typography_typography": "globals\/typography?id=8cf6ce5",
+                                                    "heading_color": "globals\/colors?id=primary"
+                                                },
+                                                "star_color": "#FBBE47",
+                                                "empty_star_color": "#FBBE47",
+                                                "price_color": "#656565",
+                                                "old_price_color": "#000000",
+                                                "button_text_color": "#000000",
+                                                "button_hover_background_color": "#000000",
+                                                "button_border_radius": {
+                                                    "unit": "px",
+                                                    "top": "50",
+                                                    "right": "50",
+                                                    "bottom": "50",
+                                                    "left": "50",
+                                                    "isLinked": true
+                                                },
+                                                "pagination_spacing": {
+                                                    "unit": "px",
+                                                    "size": 68,
+                                                    "sizes": []
+                                                },
+                                                "show_pagination_border": "",
+                                                "pagination_padding": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "woocommerce-product-related",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
